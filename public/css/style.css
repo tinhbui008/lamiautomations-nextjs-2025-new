@@ -5001,7 +5001,7 @@ blockquote footer a {
 }
 .nav-t-holder .nav-t-footer ul.nav > li:hover a,
 .nav-t-holder .nav-t-footer ul.nav > li.active a {
-    color: #fab90a;
+    color: #e28743;
     background-color: transparent;
 }
 .nav-t-holder .nav-t-footer ul.nav > li:last-child > a {
@@ -5071,7 +5071,7 @@ blockquote footer a {
 }
 .nav-t-holder .nav-t-footer ul.nav > li ul.submenu li:hover > a {
     color: #fff;
-    background: #51c5e9;
+    background: #e28743;
 }
 .nav-t-holder .nav-t-footer ul.nav > li ul.submenu li a {
     color: #242424;
@@ -5861,7 +5861,7 @@ blockquote footer a {
     background-size: cover;
 }
 .about-us5 {
-    background: url("../images/about/bg-about-us5.jpg") left center no-repeat;
+    /* background: url("../images/about/bg-about-us5.jpg") left center no-repeat; */
     padding: 78px 0 58px;
     background-size: cover;
     min-height: 603px;

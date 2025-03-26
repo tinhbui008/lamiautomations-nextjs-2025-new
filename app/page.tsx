@@ -57,7 +57,7 @@ export default function Home() {
                             <p>
                               187/18 street 6, Ward 7
                               <br />
-                              <span>Go Vap District, Ho Chi Minh City</span>
+                              <span>Go Vap District, Ho Chi Minh</span>
                             </p>
                           </div>
                         </div>
@@ -91,7 +91,7 @@ export default function Home() {
                         <ul className="nav">
                           <li className="has-t-submenu">
                             <a href="index-2.html">Home</a>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="index-3.html">Home Two</a>
                               </li>
@@ -104,11 +104,11 @@ export default function Home() {
                               <li>
                                 <a href="index-6.html">Home Five</a>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className="has-t-submenu">
                             <a href="about.html">about us</a>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="team.html">Our Team</a>
                               </li>
@@ -118,39 +118,39 @@ export default function Home() {
                               <li>
                                 <a href="faq.html">Faq</a>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className="has-t-submenu">
-                            <a href="solutions.html">solutions</a>
+                            <a href="solutions.html">services</a>
                             <ul className="submenu">
                               <li>
-                                <a href="meterial.html">meterial engineering</a>
+                                <a href="meterial.html">Custom Machinery Design & Manufacture</a>
                               </li>
                               <li>
                                 <a href="agricultural.html">
-                                  agricultural processing
+                                  CONCEPT DESIGN & RAPID 3D MODEL
                                 </a>
                               </li>
                               <li>
-                                <a href="mechanical.html">Mechanical engineering</a>
+                                <a href="mechanical.html">AUTOMATION SUPPORT AND MAINTENANCE</a>
                               </li>
                               <li>
-                                <a href="chemical.html">chemical research</a>
+                                <a href="chemical.html">PRECISION MACHINING SERVICES </a>
                               </li>
                               <li>
-                                <a href="power.html">power and energy</a>
+                                <a href="power.html">ELECTRICAL AND MECHANICAL INSTALLATION </a>
                               </li>
                               <li>
-                                <a href="oil.html">Oil and lubricant</a>
+                                <a href="oil.html">ROBOTS & ROBOTIC AUTOMATION </a>
                               </li>
                               <li>
-                                <a href="alternate.html">alternate energy</a>
+                                <a href="alternate.html">SAFETY COVER</a>
                               </li>
                             </ul>
                           </li>
                           <li className="has-t-submenu">
-                            <a href="projects.html">Projects</a>
-                            <ul className="submenu">
+                            <a href="projects.html">Products</a>
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="classic.html">classic</a>
                               </li>
@@ -163,19 +163,19 @@ export default function Home() {
                               <li>
                                 <a href="projects-details.html">Projects Details</a>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className="has-t-submenu">
-                            <a href="news.html">News</a>
-                            <ul className="submenu">
+                            <a href="news.html">Blogs</a>
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="news-details.html">News Details</a>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className="has-t-submenu">
                             <a href="shop.html">Shop</a>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <a href="product.html">Product Details</a>
                               </li>
@@ -185,7 +185,7 @@ export default function Home() {
                               <li>
                                 <a href="checkout.html">Checkout Page</a>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li>
                             <a href="contact.html">contact us</a>
@@ -481,13 +481,11 @@ export default function Home() {
             <div className="row event-pad">
               <div className="col-sm-6 col-md-4 team">
                 <div className="box-img">
-                  <img src="images/team/4-1.jpg" alt="" />
+                  <img src="images/services/custom_machinery_design_and_manufacture.jpg" alt="" />
                   <div className="caption">
-                    <h2>mechanical engineering</h2>
+                    <h2>CUSTOM MACHINERY DESIGN AND MANUFACTURE</h2>
                     <p>
-                      Tdolor sit amet, consectetur, adipis civelit sed quia non qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipis
-                      civelit. Red quia numquam.
+                      Provide tailored solutions for designing and manufacturing custom machinery to meet specific production needs.
                     </p>
                     <a href="#">Read more</a>
                   </div>
@@ -495,13 +493,11 @@ export default function Home() {
               </div>
               <div className="col-sm-6 col-md-4 team">
                 <div className="box-img">
-                  <img src="images/team/4-2.jpg" alt="" />
+                  <img src="images/services/custom_machinery_design_and_manufacture.jpg" alt="" />
                   <div className="caption">
-                    <h2>Agricultural Processing</h2>
+                    <h2>CONCEPT DESIGN AND RAPID 3D MODEL</h2>
                     <p>
-                      Tdolor sit amet, consectetur, adipis civelit sed quia non qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipis
-                      civelit. Red quia numquam.
+                      We offer innovative concept design and fast 3D modeling services to bring ideas to life quickly and efficiently.
                     </p>
                     <a href="#">Read more</a>
                   </div>
@@ -509,13 +505,11 @@ export default function Home() {
               </div>
               <div className="col-sm-6 col-md-4 team">
                 <div className="box-img">
-                  <img src="images/team/4-3.jpg" alt="" />
+                  <img src="images/services/custom_machinery_design_and_manufacture.jpg" alt="" />
                   <div className="caption">
-                    <h2>Oils and Lubricants</h2>
+                    <h2>AUTOMATION SUPPORT AND MAINTENANCE </h2>
                     <p>
-                      Tdolor sit amet, consectetur, adipis civelit sed quia non qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipis
-                      civelit. Red quia numquam.
+                      We provide automation support and maintenance to ensure stable operation and maximize efficiency.
                     </p>
                     <a href="#">Read more</a>
                   </div>
@@ -523,13 +517,11 @@ export default function Home() {
               </div>
               <div className="col-sm-6 col-md-4 team">
                 <div className="box-img">
-                  <img src="images/team/4-4.jpg" alt="" />
+                  <img src="images/services/custom_machinery_design_and_manufacture.jpg" alt="" />
                   <div className="caption">
-                    <h2>power and engery</h2>
+                    <h2>PRECISION MACHINING SERVICES </h2>
                     <p>
-                      Tdolor sit amet, consectetur, adipis civelit sed quia non qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipis
-                      civelit. Red quia numquam.
+                      We provide high-accuracy precision machining services to produce complex components with tight tolerances.
                     </p>
                     <a href="#">Read more</a>
                   </div>
@@ -539,11 +531,9 @@ export default function Home() {
                 <div className="box-img">
                   <img src="images/team/4-5.jpg" alt="" />
                   <div className="caption">
-                    <h2>chemical research</h2>
+                    <h2>ELECTRICAL AND MECHANICAL INSTALLATION</h2>
                     <p>
-                      Tdolor sit amet, consectetur, adipis civelit sed quia non qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipis
-                      civelit. Red quia numquam.
+                      We offer electrical and mechanical installation services for seamless integration.
                     </p>
                     <a href="#">Read more</a>
                   </div>
@@ -553,11 +543,21 @@ export default function Home() {
                 <div className="box-img">
                   <img src="images/team/4-6.jpg" alt="" />
                   <div className="caption">
-                    <h2>Meterial engineering</h2>
+                    <h2>ROBOTS AND ROBOTIC AUTOMATION</h2>
                     <p>
-                      Tdolor sit amet, consectetur, adipis civelit sed quia non qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipis
-                      civelit. Red quia numquam.
+                      We provide cutting-edge collaborative robot technologies for enhanced efficiency
+                    </p>
+                    <a href="#">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 team">
+                <div className="box-img">
+                  <img src="images/team/4-6.jpg" alt="" />
+                  <div className="caption">
+                    <h2>SAFETY COVER</h2>
+                    <p>
+                      We design custom safety covers using durable materials for compliance and efficiency
                     </p>
                     <a href="#">Read more</a>
                   </div>
@@ -775,7 +775,7 @@ export default function Home() {
         <div className="fullwidth-silder2">
           <div className="fullwidth-slider2">
             <div className="item project_img">
-              <img src="images/our-projects/our-project2-1.jpg" alt="" />
+              <img src="images/projects/servo_motor_and_driver.png" alt="" />
               <div className="project_txt_btn">
                 <a
                   href="#"
@@ -783,7 +783,7 @@ export default function Home() {
                 >
                   view project
                 </a>
-                <h6>Oil &amp; Petrolium Plant</h6>
+                <h6>Servo motor and driver</h6>
               </div>
             </div>
             <div className="item project_img">
@@ -795,7 +795,7 @@ export default function Home() {
                 >
                   view project
                 </a>
-                <h6>Oil &amp; Petrolium Plant</h6>
+                <h6>Aluminum extrusion frame</h6>
               </div>
             </div>
             <div className="item project_img">
@@ -807,7 +807,7 @@ export default function Home() {
                 >
                   view project
                 </a>
-                <h6>Oil &amp; Petrolium Plant</h6>
+                <h6>Pneumatic cylinder</h6>
               </div>
             </div>
             <div className="item project_img">
@@ -819,7 +819,7 @@ export default function Home() {
                 >
                   view project
                 </a>
-                <h6>Oil &amp; Petrolium Plant</h6>
+                <h6>Various types of PLCs</h6>
               </div>
             </div>
             <div className="item project_img">
@@ -831,7 +831,43 @@ export default function Home() {
                 >
                   view project
                 </a>
-                <h6>Oil &amp; Petrolium Plant</h6>
+                <h6>Robo cylinder</h6>
+              </div>
+            </div>
+            <div className="item project_img">
+              <img src="images/projects/servo_motor_and_driver.png" alt="" />
+              <div className="project_txt_btn">
+                <a
+                  href="#"
+                  className="view-all desi-bounce-to-right slide_learn_btn view_project_btn"
+                >
+                  view project
+                </a>
+                <h6>Modular pipe frame</h6>
+              </div>
+            </div>
+            <div className="item project_img">
+              <img src="images/our-projects/our-project2-5.jpg" alt="" />
+              <div className="project_txt_btn">
+                <a
+                  href="#"
+                  className="view-all desi-bounce-to-right slide_learn_btn view_project_btn"
+                >
+                  view project
+                </a>
+                <h6>Bearings</h6>
+              </div>
+            </div>
+            <div className="item project_img">
+              <img src="images/our-projects/our-project2-5.jpg" alt="" />
+              <div className="project_txt_btn">
+                <a
+                  href="#"
+                  className="view-all desi-bounce-to-right slide_learn_btn view_project_btn"
+                >
+                  view project
+                </a>
+                <h6>Sensor devices</h6>
               </div>
             </div>
           </div>
@@ -1054,26 +1090,32 @@ export default function Home() {
               </ul>
             </div>
             <div className="widget widget-links col-md-3 col-sm-6">
-              <h4 className="widget_title">Our Solutions</h4>
+              <h4 className="widget_title">Our Products</h4>
               <div className="widget-contact-list row m0">
                 <ul>
                   <li>
-                    <a href="meterial.html">- Metal Industry</a>
+                    <a href="meterial.html">- Servo motor and driver</a>
                   </li>
                   <li>
-                    <a href="agricultural.html">- Agricultural Engineering</a>
+                    <a href="agricultural.html">- Aluminum extrusion frame</a>
                   </li>
                   <li>
-                    <a href="mechanical.html">- Alternative Energy</a>
+                    <a href="mechanical.html">- Pneumatic cylinder</a>
                   </li>
                   <li>
-                    <a href="chemical.html">- chemical research</a>
+                    <a href="chemical.html">- Various types of PLCs</a>
                   </li>
                   <li>
-                    <a href="power.html">- power and energy</a>
+                    <a href="power.html">- Robo cylinder</a>
                   </li>
                   <li>
-                    <a href="oil.html">- Oil and lubricant</a>
+                    <a href="oil.html">- Modular pipe frame </a>
+                  </li>
+                  <li>
+                    <a href="oil.html">- Bearings </a>
+                  </li>
+                  <li>
+                    <a href="oil.html">- Sensor devices </a>
                   </li>
                 </ul>
               </div>
@@ -1086,13 +1128,13 @@ export default function Home() {
                     <a href="about.html">- About Us</a>
                   </li>
                   <li>
-                    <a href="#">- Career</a>
+                    <a href="#">- Services</a>
                   </li>
                   <li>
-                    <a href="#">- Get Quote</a>
+                    <a href="#">- Products</a>
                   </li>
                   <li>
-                    <a href="news.html">- News</a>
+                    <a href="news.html">- Blogs</a>
                   </li>
                   <li>
                     <a href="faq.html">- Faq</a>
@@ -1107,20 +1149,20 @@ export default function Home() {
                   <li>
                     <i className="fa fa-map-marker" />
                     <div className="fleft location_address">
-                      Lorance 542B, Tailstoi Town 5248 MT, Wordwide Country
+                      187/18 street 6, Ward 7, Go Vap District, Ho Chi Minh
                     </div>
                   </li>
                   <li>
                     <i className="fa fa-phone" />
                     <div className="fleft contact_no">
-                      <a href="#">01865 524 8503</a>
+                      <a href="#">+ (84) 033 932 9925</a>
                     </div>
                   </li>
                   <li>
                     <i className="fa fa-envelope-o" />
                     <div className="fleft contact_mail">
-                      <a href="mailto:info@woodworkshop.com">
-                        info@woodworkshop.com
+                      <a href="mailto:lamnguyen@lamiautom">
+                        lamnguyen@lamiautom
                       </a>
                     </div>
                   </li>
