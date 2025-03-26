@@ -1726,12 +1726,13 @@ img {
     list-style: none;
 }
 .widget-contact-list ul li a {
-    color: #627279;
+    /* color: #627279; */
+    color: #fff;
     text-transform: capitalize;
     line-height: 39px;
 }
 .widget-contact-list ul li a:hover {
-    color: #009bb3;
+    color: #e28743;
 }
 .widget-contact-list ul li i {
     float: left;
@@ -1743,7 +1744,8 @@ img {
 }
 .widget.widget-contact ul li .fleft {
     float: left;
-    color: #627279;
+    /* color: #627279; */
+    color: #fff;
     width: -webkit-calc(100% - 34px);
     width: calc(100% - 34px);
     font: 400 1em/1.4em "Open Sans", sans-serif;
@@ -7277,4 +7279,13 @@ section.newsletter .req-button a i
 .mobile-link .widget-t-inner
 {
     width: 100%;
+}
+
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-color-e28743 {
+    color: #e28743 !important;
 }
