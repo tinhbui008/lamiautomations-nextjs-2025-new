@@ -125,7 +125,7 @@ export default function About() {
                                                         </ul>
                                                     </li>
                                                     <li className="has-t-submenu">
-                                                        <a href="/">Products</a>
+                                                        <a href="/product">Products</a>
 
                                                     </li>
                                                     <li className="has-t-submenu">

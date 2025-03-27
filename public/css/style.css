@@ -1413,7 +1413,7 @@ a.view-all.slide_learn_btn.view_project_btn {
     transition: transform 0.55s;
     line-height: 43px;
     font-family: 'Open Sans', sans-serif;
-    background: #53cff5;
+    background: #f5752f;
     text-transform: uppercase;
     border-radius: 3px;
     font-weight: bold;
@@ -3578,7 +3578,7 @@ img {
     width: 55px;
     height: 3px;
     display: inline-block;
-    background: #fab90a;
+    background: #f5752f;
     position: absolute;
     bottom: 0;
 }
@@ -3693,7 +3693,7 @@ img {
     letter-spacing: 0.3px;
     color: #fff;
     margin: 0;
-    background: #fac012;
+    background: #f5752f;
     border-radius: 3px;
     line-height: 38px;
     padding: 0 20px;
@@ -3704,7 +3704,7 @@ img {
 
 .loadmore {
     margin: 50px 0;
-    background: #fab90a;
+    background: #f5752f;
     border-radius: 5px;
     padding: 0 25px;
     display: inline-block;
