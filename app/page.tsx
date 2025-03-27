@@ -8,7 +8,7 @@ export default function Home() {
         <div className="container">
           <div className="row pad-logo logo-wrapper">
             <div className="col-lg-4 col-md-3 col-sm-12 col-xs-12 t-logo">
-              <a href="index-2.html">
+              <a href="/">
                 <img
                   src="images/Lami_Logo_7.png"
                   alt="logo"
@@ -89,36 +89,11 @@ export default function Home() {
                       </div>
                       <div className="nav-t-footer">
                         <ul className="nav">
-                          <li className="has-t-submenu">
-                            <a href="index-2.html">Home</a>
-                            {/* <ul className="submenu">
-                              <li>
-                                <a href="index-3.html">Home Two</a>
-                              </li>
-                              <li>
-                                <a href="index-4.html">Home Three</a>
-                              </li>
-                              <li>
-                                <a href="index-5.html">Home Four</a>
-                              </li>
-                              <li>
-                                <a href="index-6.html">Home Five</a>
-                              </li>
-                            </ul> */}
+                          <li>
+                            <a href="/">Home</a>
                           </li>
-                          <li className="has-t-submenu">
-                            <a href="about.html">about us</a>
-                            {/* <ul className="submenu">
-                              <li>
-                                <a href="team.html">Our Team</a>
-                              </li>
-                              <li>
-                                <a href="testimonials.html">Testimonials</a>
-                              </li>
-                              <li>
-                                <a href="faq.html">Faq</a>
-                              </li>
-                            </ul> */}
+                          <li>
+                            <a href="/about">about us</a>
                           </li>
                           <li className="has-t-submenu">
                             <a href="solutions.html">services</a>
@@ -165,27 +140,11 @@ export default function Home() {
                               </li>
                             </ul> */}
                           </li>
-                          <li className="has-t-submenu">
+                          <li>
                             <a href="news.html">Blogs</a>
-                            {/* <ul className="submenu">
-                              <li>
-                                <a href="news-details.html">News Details</a>
-                              </li>
-                            </ul> */}
                           </li>
-                          <li className="has-t-submenu">
+                          <li>
                             <a href="shop.html">Shop</a>
-                            {/* <ul className="submenu">
-                              <li>
-                                <a href="product.html">Product Details</a>
-                              </li>
-                              <li>
-                                <a href="cart.html">Cart Page</a>
-                              </li>
-                              <li>
-                                <a href="checkout.html">Checkout Page</a>
-                              </li>
-                            </ul> */}
                           </li>
                           <li>
                             <a href="contact.html">contact us</a>
@@ -254,7 +213,7 @@ export default function Home() {
         <div role="listbox" className="carousel-inner">
           <div
             style={{
-              backgroundImage: "url(images/home_page_variation5/slider/1.jpg)"
+              backgroundImage: "url(images/sliders/slider-01.jpg)"
             }}
             className="item active"
           >
@@ -280,15 +239,15 @@ export default function Home() {
                       href="about_us.html"
                       className="view-all hvr-bounce-to-right slide_learn_btn btn btn0"
                     >
-                      learn more
+                      read more
                     </a>
-                    <a
+                    {/* <a
                       data-animation="animated fadeInUp"
                       href="about_us.html"
                       className="view-all hvr-bounce-to-right slide_learn_btn btn"
                     >
                       our sevices
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -296,7 +255,7 @@ export default function Home() {
           </div>
           <div
             style={{
-              backgroundImage: "url(images/home_page_variation5/slider/2.jpg)"
+              backgroundImage: "url(images/sliders/slider-02.jpg)"
             }}
             className="item"
           >
@@ -322,15 +281,15 @@ export default function Home() {
                       href="about_us.html"
                       className="view-all hvr-bounce-to-right slide_learn_btn btn btn0"
                     >
-                      learn more
+                      read more
                     </a>
-                    <a
+                    {/* <a
                       data-animation="animated fadeInUp"
                       href="about_us.html"
                       className="view-all hvr-bounce-to-right slide_learn_btn btn"
                     >
                       our sevices
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -338,7 +297,7 @@ export default function Home() {
           </div>
           <div
             style={{
-              backgroundImage: "url(images/home_page_variation5/slider/3.jpg)"
+              backgroundImage: "url(images/sliders/slider-03.jpg)"
             }}
             className="item"
           >
@@ -364,15 +323,15 @@ export default function Home() {
                       href="about_us.html"
                       className="view-all hvr-bounce-to-right slide_learn_btn btn btn0"
                     >
-                      learn more
+                      read more
                     </a>
-                    <a
+                    {/* <a
                       data-animation="animated fadeInUp"
                       href="about_us.html"
                       className="view-all hvr-bounce-to-right slide_learn_btn btn"
                     >
                       our sevices
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -533,17 +492,16 @@ export default function Home() {
                   >
                     <div className="panel panel-default">
                       <div id="headingOne" role="tab" className="panel-heading">
-                        <h4 className="panel-title">
+                        <h4 className="panel-title on">
                           <a
                             role="button"
                             data-toggle="collapse"
                             data-parent="#accordion"
                             href="#collapseOne"
-                            aria-expanded="false"
+                            aria-expanded="true"
                             aria-controls="collapseOne"
-                            className="collapsed"
                           >
-                            <span>WE offer luxury service to our customer</span>
+                            <span>How does a simulator differ from an emulator?</span>
                             <i className="fa fa-minus" />
                             <i className="fa fa-plus" />
                           </a>
@@ -553,29 +511,29 @@ export default function Home() {
                         id="collapseOne"
                         role="tabpanel"
                         aria-labelledby="headingOne"
-                        className="panel-collapse collapse"
+                        className="panel-collapse collapse in"
                       >
                         <div className="panel-body faq-content">
                           <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                            aut odit aut fugit, sed quia consequuntur magni dolores
-                            eos qui ratione voluptatem sequi nesciunt.
+                            Simulators replicate the behavior of a system but do not mimic its internal architecture,
+                            while emulators reproduce both behavior and internal architecture.
                           </p>
                         </div>
                       </div>
                     </div>
                     <div className="panel panel-default">
                       <div id="headingTwo" role="tab" className="panel-heading">
-                        <h4 className="panel-title on">
+                        <h4 className="panel-title">
                           <a
                             role="button"
                             data-toggle="collapse"
                             data-parent="#accordion"
                             href="#collapseTwo"
-                            aria-expanded="true"
+                            aria-expanded="false"
                             aria-controls="collapseTwo"
+                            className="collapsed"
                           >
-                            WE offer luxury service to our customer
+                            Are your simulators stand-alone units?
                             <i className="fa fa-minus" />
                             <i className="fa fa-plus" />
                           </a>
@@ -585,13 +543,12 @@ export default function Home() {
                         id="collapseTwo"
                         role="tabpanel"
                         aria-labelledby="headingTwo"
-                        className="panel-collapse collapse in"
+                        className="panel-collapse collapse"
                       >
                         <div className="panel-body faq-content">
                           <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                            aut odit aut fugit, sed quia consequuntur magni dolores
-                            eos qui ratione voluptatem sequi nesciunt.
+                            Yes, most simulators are turn-key solutions delivered with all necessary hardware,
+                            software, and cabling to operate independently.
                           </p>
                         </div>
                       </div>
@@ -608,7 +565,7 @@ export default function Home() {
                             aria-controls="collapseThree"
                             className="collapsed"
                           >
-                            WE offer luxury service to our customer
+                            Is training required to use a simulator?
                             <i className="fa fa-minus" />
                             <i className="fa fa-plus" />
                           </a>
@@ -622,9 +579,8 @@ export default function Home() {
                       >
                         <div className="panel-body faq-content">
                           <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                            aut odit aut fugit, sed quia consequuntur magni dolores
-                            eos qui ratione voluptatem sequi nesciunt.
+                            Yes, most simulators require basic training to ensure users can operate them effectively.
+                            Many providers include training sessions or online tutorials with their products.
                           </p>
                         </div>
                       </div>
@@ -641,7 +597,7 @@ export default function Home() {
                             aria-controls="collapseFour"
                             className="collapsed"
                           >
-                            WE offer luxury service to our customer
+                            How accurate are simulation results?
                             <i className="fa fa-minus" />
                             <i className="fa fa-plus" />
                           </a>
@@ -655,9 +611,8 @@ export default function Home() {
                       >
                         <div className="panel-body faq-content">
                           <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                            aut odit aut fugit, sed quia consequuntur magni dolores
-                            eos qui ratione voluptatem sequi nesciunt.
+                            The accuracy depends on the complexity of the model and the data used.
+                            Simulations aim to provide reliable insights but may not always replicate real-world conditions perfectly.
                           </p>
                         </div>
                       </div>
@@ -975,7 +930,7 @@ export default function Home() {
         <div className="fullwidth-silder2">
           <div className="fullwidth-slider2">
             <div className="item project_img">
-              <img src="images/projects/servo_motor_and_driver.png" alt="" />
+              <img src="images/our-projects/our-project2-2.jpg" alt="" />
               <div className="project_txt_btn">
                 <a
                   href="#"
@@ -1035,7 +990,7 @@ export default function Home() {
               </div>
             </div>
             <div className="item project_img">
-              <img src="images/projects/servo_motor_and_driver.png" alt="" />
+              <img src="images/our-projects/our-project2-5.jpg" alt="" />
               <div className="project_txt_btn">
                 <a
                   href="#"
@@ -1043,8 +998,8 @@ export default function Home() {
                 >
                   view project
                 </a>
-                <h6>Modular pipe frame</h6>
-              </div>
+                  <h6>Modular pipe frame</h6>
+                </div>
             </div>
             <div className="item project_img">
               <img src="images/our-projects/our-project2-5.jpg" alt="" />
@@ -1103,7 +1058,7 @@ export default function Home() {
             <div className="news-evn-img">
               <a href="news.html" className="image_hover">
                 <img
-                  src="images/event/1.jpg"
+                  src="images/event/3.jpg"
                   alt=""
                   className="img-responsive zoom_img_effect"
                 />
@@ -1120,40 +1075,11 @@ export default function Home() {
                 <a href="news.html"> Comments: 6</a>
               </div>
               <a href="news.html">
-                <h3>The Surprising Reason College Tuition Is Crazy Expensive</h3>
+                <h3>Packing a Real Punch</h3>
               </a>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusa nt ium doloremque laudantium totam rem aperiam
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4 col-sm-4 col-xs-12">
-            <div className="news-evn-img">
-              <a href="news.html" className="image_hover">
-                <img
-                  src="images/event/2.jpg"
-                  alt=""
-                  className="img-responsive zoom_img_effect"
-                />
-              </a>
-              <div className="event-date">
-                <h3>
-                  05 <small>Aug</small>
-                </h3>
-              </div>
-            </div>
-            <div className="news-evn-cont">
-              <div className="news-meta">
-                <a href="news.html">By: Anjori Meyami</a>
-                <a href="news.html"> Comments: 6</a>
-              </div>
-              <a href="news.html">
-                <h3>The Surprising Reason College Tuition Is Crazy Expensive</h3>
-              </a>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusa nt ium doloremque laudantium totam rem aperiam
+                Fast Automation has recently designed and completed
+                a multi-packing machine or unitiser for one happy customer.
               </p>
             </div>
           </div>
@@ -1178,11 +1104,40 @@ export default function Home() {
                 <a href="news.html"> Comments: 6</a>
               </div>
               <a href="news.html">
-                <h3>The Surprising Reason College Tuition Is Crazy Expensive</h3>
+                <h3>Time to update your HMI/SCADA</h3>
               </a>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusa nt ium doloremque laudantium totam rem aperiam
+                Whatever your reason is for reviewing your sites HMI & SCADA requirements,
+                Fast Automation can engineer a solution to address your needs
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4 col-sm-4 col-xs-12">
+            <div className="news-evn-img">
+              <a href="news.html" className="image_hover">
+                <img
+                  src="images/event/3.jpg"
+                  alt=""
+                  className="img-responsive zoom_img_effect"
+                />
+              </a>
+              <div className="event-date">
+                <h3>
+                  05 <small>Aug</small>
+                </h3>
+              </div>
+            </div>
+            <div className="news-evn-cont">
+              <div className="news-meta">
+                <a href="news.html">By: Anjori Meyami</a>
+                <a href="news.html"> Comments: 6</a>
+              </div>
+              <a href="news.html">
+                <h3>Top 5 Disruptors In Automation?</h3>
+              </a>
+              <p>
+                The technological world is continuing to develop, and so is automation.
+
               </p>
             </div>
           </div>
@@ -1379,16 +1334,16 @@ export default function Home() {
       <section className="footer-t-bottom footer-bottom footer-bottom3">
         <div className="container clearfix">
           <div className="pull-left fo-txt">
-            <p>Copyright © Industiral 2016.. All rights reserved.</p>
+            <p>Copyright © Lamiautomations 2025.. All rights reserved.</p>
           </div>
-          <div className="pull-right fo-txt">
+          {/* <div className="pull-right fo-txt">
             <p>
               Downloaded From:
               <a target="_blank" href="https://www.templateshub.net">
                 Templates Hub
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
