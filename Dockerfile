@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Mở cổng 3000 cho ứng dụng
-EXPOSE 3001
+EXPOSE 3000
 
 # Lệnh khởi chạy ứng dụng
 CMD ["npm", "start"]
