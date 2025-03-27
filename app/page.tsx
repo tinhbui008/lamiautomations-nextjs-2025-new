@@ -75,7 +75,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-3 col-sm-12 col-xs-12">
                 <div className="logo">
-                  <img src="images/logo-mobile.png" alt="" />
+                  <img src="images/Lami_Logo_7.png" alt="" />
                 </div>
               </div>
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -96,7 +96,7 @@ export default function Home() {
                             <a href="/about">about us</a>
                           </li>
                           <li className="has-t-submenu">
-                            <a href="solutions.html">services</a>
+                            <a href="/service">services</a>
                             <ul className="submenu">
                               <li>
                                 <a href="meterial.html">Custom Machinery Design & Manufacture</a>
@@ -124,7 +124,7 @@ export default function Home() {
                             </ul>
                           </li>
                           <li className="has-t-submenu">
-                            <a href="projects.html">Products</a>
+                            <a href="/product">Products</a>
                             {/* <ul className="submenu">
                               <li>
                                 <a href="classic.html">classic</a>
@@ -141,7 +141,7 @@ export default function Home() {
                             </ul> */}
                           </li>
                           <li>
-                            <a href="news.html">Blogs</a>
+                            <a href="/blog">Blogs</a>
                           </li>
                           <li>
                             <a href="shop.html">Shop</a>
@@ -1056,7 +1056,7 @@ export default function Home() {
         <div className="row event-pad">
           <div className="col-md-4 col-sm-4 col-xs-12">
             <div className="news-evn-img">
-              <a href="news.html" className="image_hover">
+              <a href="/blog" className="image_hover">
                 <img
                   src="images/event/3.jpg"
                   alt=""

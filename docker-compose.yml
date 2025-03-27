@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lamiautomation-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lamiautomation-app
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production

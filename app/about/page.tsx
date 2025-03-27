@@ -89,7 +89,7 @@ export default function About() {
                                             <div className="nav-t-footer">
                                                 <ul className="nav">
                                                     <li>
-                                                        <a href="index-2./">Home</a>
+                                                        <a href="/">Home</a>
                                                         {/* <ul className="submenu">
                               <li>
                                 <a href="index-3.html">Home Two</a>
@@ -120,7 +120,7 @@ export default function About() {
                             </ul> */}
                                                     </li>
                                                     <li className="has-t-submenu">
-                                                        <a href="solutions.html">services</a>
+                                                        <a href="/service">services</a>
                                                         <ul className="submenu">
                                                             <li>
                                                                 <a href="meterial.html">Custom Machinery Design & Manufacture</a>
@@ -148,7 +148,7 @@ export default function About() {
                                                         </ul>
                                                     </li>
                                                     <li className="has-t-submenu">
-                                                        <a href="projects.html">Products</a>
+                                                        <a href="/product">Products</a>
                                                         {/* <ul className="submenu">
                               <li>
                                 <a href="classic.html">classic</a>
@@ -165,7 +165,7 @@ export default function About() {
                             </ul> */}
                                                     </li>
                                                     <li className="has-t-submenu">
-                                                        <a href="news.html">Blogs</a>
+                                                        <a href="/blog">Blogs</a>
                                                         {/* <ul className="submenu">
                               <li>
                                 <a href="news-details.html">News Details</a>
