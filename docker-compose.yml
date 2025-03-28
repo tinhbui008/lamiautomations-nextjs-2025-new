@@ -20,5 +20,6 @@ services:
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/certs:/etc/nginx/certs
+      - ./nginx/snippets:/etc/nginx/snippets
     depends_on:
       - lamiautomation-app
