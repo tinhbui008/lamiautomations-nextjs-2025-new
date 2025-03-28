@@ -37,7 +37,7 @@ export default function About() {
                                                             + (84) 033 932 9925
                                                             <br />
                                                             <span>
-                                                                <a href="mailto:info@industrial.com">
+                                                                <a href="mailto:lamnguyen@lamiautomations.com">
                                                                     lamnguyen@lamiautomations.com
                                                                 </a>
                                                             </span>
